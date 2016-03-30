@@ -1,0 +1,45 @@
+//
+//  LGExpense.swift
+//  sExpenses
+//
+//  Created by Nacho on 1/5/16.
+//  Copyright © 2016 LandhGames™. All rights reserved.
+//
+
+import UIKit
+
+
+class LGExpense: NSObject {
+    
+    enum Currency{
+        case ars
+        case usd
+        case euro
+        case yen
+        case uyu
+        case bru
+    }
+
+    
+    var title :     String!
+    var category :  String!
+    var price :     Double!
+    var fecha :     NSDate!
+    var currency : Currency!
+    
+    override init(){
+        super.init()
+    }
+    
+    init(title :String, cat : String, price : Double, curr : Currency) {
+        self.title = title
+        self.category = cat
+        self.price = price
+        self.currency = curr
+        self.fecha = NSDate()
+    }
+    
+    
+    
+    
+}
