@@ -11,6 +11,15 @@ import UIKit
 
 class LGExpense: NSObject {
     
+    enum PaymentType{
+        case Visa
+        case Amex
+        case Mastercard
+        case VisaCitibank
+        case Cash
+    }
+
+    
     enum Currency{
         case ars
         case usd
@@ -26,6 +35,7 @@ class LGExpense: NSObject {
     var price :     Double!
     var fecha :     NSDate!
     var currency : Currency!
+    var paymentType : PaymentType!
     
     override init(){
         super.init()

@@ -65,22 +65,40 @@ class AddSpendVC : UIViewController {
             self.delegate.didAddNewSpending(exp)
             self.navigationController?.dismissViewControllerAnimated(false, completion: nil)
         }
+        else
+        {
+            self.showError()
+        }
     
+    }
+    
+    func showError(){
+
+            
+            // create the alert
+            let alert = UIAlertController(title: "My Title", message: "This is my message.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            
+            // show the alert
+            self.presentViewController(alert, animated: true, completion: nil)
+
     }
     
     func allFieldOK() -> Bool{
-        return true
+        return ((self.spendPrice.text?.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)>0) && (self.spendTitle.text?.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)>0))
     }
     
     @IBAction func didTouchAddSpend(sender: UIButton) {
-        returnToBackVie()
+        returnToBackVie()        
     }
     
-    @IBAction func didTouchCancel(sender: UIButton) {
+    @IBAction func didCancelAddExpense(sender: UIButton) {
         self.navigationController?.dismissViewControllerAnimated(false, completion: nil)
     }
-    
     override func resignFirstResponder() -> Bool {
         return true
     }
+    
 }

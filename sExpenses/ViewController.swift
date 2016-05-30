@@ -94,7 +94,8 @@ class ViewController: UIViewController, AddSpendVCProtocol {
     func didAddNewSpending(exp : LGExpense){
         self.expenses.append(exp)
         self.tableView.reloadData()
-        self.mgr.saveSpenditures(self.expenses)
+        self.mgr.saveSpenditure(exp)
+        //self.mgr.saveSpenditures(self.expenses)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
