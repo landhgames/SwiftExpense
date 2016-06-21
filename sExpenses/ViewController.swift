@@ -15,6 +15,7 @@ class ViewController: UIViewController, AddSpendVCProtocol {
     @IBOutlet weak var tableView: UITableView!
     
     var expenses : Array<LGExpense> = []
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +51,7 @@ class ViewController: UIViewController, AddSpendVCProtocol {
         super.didReceiveMemoryWarning()
     }
     
-    // Mark: - Something
+    // Mark: - TableView Delegate
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.expenses.count

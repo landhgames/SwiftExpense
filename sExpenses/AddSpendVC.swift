@@ -69,7 +69,7 @@ class AddSpendVC : UIViewController {
         {
             self.showError()
         }
-    
+        
     }
     
     func showError(){

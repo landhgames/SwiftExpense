@@ -41,7 +41,7 @@ class LGExpense: NSObject {
         super.init()
     }
     
-    init(title :String, cat : String, price : Double, curr : Currency) {
+    init(title : String, cat : String, price : Double, curr : Currency) {
         self.title = title
         self.category = cat
         self.price = price

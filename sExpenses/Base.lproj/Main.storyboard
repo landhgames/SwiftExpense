@@ -36,34 +36,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhe-Pt-KSb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhe-Pt-KSb">
                                 <rect key="frame" x="59" y="106" width="141" height="30"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="OL9-rQ-Otf"/>
                                     <constraint firstAttribute="width" constant="141" id="gfS-DU-bAF"/>
                                 </constraints>
-                                <state key="normal" title="Configurar Entrada"/>
+                                <state key="normal" title="Add In"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gfS-DU-bAF"/>
+                                    </mask>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIs-TM-Xt3">
-                                <rect key="frame" x="370" y="112" width="119" height="30"/>
-                                <state key="normal" title="Configurar Salida"/>
+                                <rect key="frame" x="380" y="112" width="100" height="30"/>
+                                <state key="normal" title="Agregar Salida"/>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="80Q-8U-xKh">
                                 <rect key="frame" x="0.0" y="154" width="659" height="446"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="hTK-SM-5r8" id="WiV-an-rLm"/>
+                                    <outlet property="delegate" destination="hTK-SM-5r8" id="MLi-Mw-Byg"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="80Q-8U-xKh" firstAttribute="leading" secondItem="Yvg-Hh-jFU" secondAttribute="leadingMargin" id="70A-Ix-CGI"/>
-                            <constraint firstItem="csa-L0-QOT" firstAttribute="top" secondItem="80Q-8U-xKh" secondAttribute="bottom" constant="20" id="BSQ-ZD-b3s"/>
+                            <constraint firstItem="80Q-8U-xKh" firstAttribute="leading" secondItem="Yvg-Hh-jFU" secondAttribute="leadingMargin" constant="-20" id="70A-Ix-CGI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wIs-TM-Xt3" secondAttribute="trailing" constant="5" id="BHO-oY-fmA"/>
+                            <constraint firstItem="csa-L0-QOT" firstAttribute="top" secondItem="80Q-8U-xKh" secondAttribute="bottom" id="BSQ-ZD-b3s"/>
                             <constraint firstItem="wIs-TM-Xt3" firstAttribute="leading" secondItem="Rhe-Pt-KSb" secondAttribute="trailing" constant="181" id="EoA-Jl-Kvq"/>
                             <constraint firstItem="Rhe-Pt-KSb" firstAttribute="baseline" secondItem="wIs-TM-Xt3" secondAttribute="baseline" id="IES-Kz-5Oa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="80Q-8U-xKh" secondAttribute="trailing" constant="-79" id="P8H-3Q-yxX"/>
                             <constraint firstItem="80Q-8U-xKh" firstAttribute="top" secondItem="wIs-TM-Xt3" secondAttribute="bottom" constant="12" id="PG9-Eg-QZ8"/>
                             <constraint firstItem="Rhe-Pt-KSb" firstAttribute="leading" secondItem="Yvg-Hh-jFU" secondAttribute="leadingMargin" constant="39" id="StI-AJ-Vw2"/>
-                            <constraint firstItem="80Q-8U-xKh" firstAttribute="leading" secondItem="Rhe-Pt-KSb" secondAttribute="trailing" constant="-130" id="qeG-Mr-hUv"/>
+                            <constraint firstItem="80Q-8U-xKh" firstAttribute="leading" secondItem="Rhe-Pt-KSb" secondAttribute="trailing" constant="-200" id="qeG-Mr-hUv"/>
                             <constraint firstItem="Rhe-Pt-KSb" firstAttribute="top" secondItem="H5L-YA-isR" secondAttribute="bottom" constant="42" id="zjc-qo-zsJ"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="StI-AJ-Vw2"/>
+                                <exclude reference="EoA-Jl-Kvq"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Yxs-Io-1gi">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="WhU-d2-39k">
@@ -72,15 +89,37 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="theTableView" destination="80Q-8U-xKh" id="WhJ-8C-2OS"/>
+                        <segue destination="3fS-UF-mGr" kind="show" identifier="ConfigurationToDetail" id="Yvw-dh-BUj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQh-ld-OAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1773" y="-594"/>
         </scene>
-        <!--View Controller-->
+        <!--Configuration DetailVC-->
+        <scene sceneID="hea-Tr-0Ju">
+            <objects>
+                <viewController id="3fS-UF-mGr" customClass="ConfigurationDetailVC" customModule="sExpenses" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="99K-aZ-zM9"/>
+                        <viewControllerLayoutGuide type="bottom" id="w2S-Tn-JyL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m6n-tV-3UU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Csk-kj-RM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2482" y="-594"/>
+        </scene>
+        <!--PeriodicalExpenses-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sExpenses" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="PeriodicalExpenses" customClass="ViewController" customModule="sExpenses" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -270,6 +309,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="MonthlyCurrentExpense" destination="tqZ-l7-3Z6" id="xga-dE-RLf"/>
+                        <outlet property="lblCreditCardTotal" destination="u8E-24-Olp" id="tDy-9Z-9YS"/>
+                        <outlet property="lblCurrentSavings" destination="KX3-tk-ZTL" id="h6X-qC-s9P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bL6-aa-oxu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

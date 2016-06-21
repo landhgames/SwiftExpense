@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="InOutConfigurationTableViewCell" customModule="sExpenses" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MC2-X2-dwg">
+                        <rect key="frame" x="18" y="8" width="93" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="93" id="04R-HP-LJc"/>
+                        </constraints>
+                        <segments>
+                            <segment title="In"/>
+                            <segment title="Out"/>
+                        </segments>
+                    </segmentedControl>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" misplaced="YES" text="Monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JF-Ph-Wvk">
+                        <rect key="frame" x="128" y="15" width="62" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r5e-t8-jHc">
+                        <rect key="frame" x="208" y="8" width="103" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="wE0-Kg-Wag"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YcL-4k-XnA">
+                        <rect key="frame" x="18" y="46" width="293" height="29"/>
+                        <segments>
+                            <segment title="AR$"/>
+                            <segment title="U$D"/>
+                            <segment title="€ "/>
+                            <segment title=""/>
+                        </segments>
+                    </segmentedControl>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Ww-xa-E1E">
+                        <rect key="frame" x="18" y="82" width="294" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Ww-xa-E1E" firstAttribute="trailing" secondItem="YcL-4k-XnA" secondAttribute="trailing" id="0oq-RR-Hj5"/>
+                    <constraint firstItem="YcL-4k-XnA" firstAttribute="trailing" secondItem="r5e-t8-jHc" secondAttribute="trailing" id="1S2-6h-EAs"/>
+                    <constraint firstItem="YcL-4k-XnA" firstAttribute="top" secondItem="0JF-Ph-Wvk" secondAttribute="bottom" constant="10" id="5zu-XR-Y8x"/>
+                    <constraint firstItem="MC2-X2-dwg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="E4M-07-tHH"/>
+                    <constraint firstItem="4Ww-xa-E1E" firstAttribute="top" secondItem="YcL-4k-XnA" secondAttribute="bottom" constant="8" id="QFc-pi-7RH"/>
+                    <constraint firstItem="0JF-Ph-Wvk" firstAttribute="leading" secondItem="MC2-X2-dwg" secondAttribute="trailing" constant="17" id="T8h-OF-6sP"/>
+                    <constraint firstItem="r5e-t8-jHc" firstAttribute="leading" secondItem="0JF-Ph-Wvk" secondAttribute="trailing" constant="18" id="b1r-rj-vV2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="r5e-t8-jHc" secondAttribute="trailing" constant="1" id="eIT-aa-JSC"/>
+                    <constraint firstItem="YcL-4k-XnA" firstAttribute="leading" secondItem="MC2-X2-dwg" secondAttribute="leading" id="faA-tC-CJ4"/>
+                    <constraint firstItem="4Ww-xa-E1E" firstAttribute="leading" secondItem="YcL-4k-XnA" secondAttribute="leading" id="fcP-nv-C33"/>
+                    <constraint firstItem="0JF-Ph-Wvk" firstAttribute="baseline" secondItem="r5e-t8-jHc" secondAttribute="baseline" constant="4" id="g2t-2Z-SDl"/>
+                    <constraint firstAttribute="topMargin" secondItem="MC2-X2-dwg" secondAttribute="top" id="gWb-k6-R5L"/>
+                    <constraint firstItem="MC2-X2-dwg" firstAttribute="baseline" secondItem="0JF-Ph-Wvk" secondAttribute="baseline" id="mdL-pD-B7h"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="eIT-aa-JSC"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="474" y="520"/>
+        </tableViewCell>
+    </objects>
+</document>

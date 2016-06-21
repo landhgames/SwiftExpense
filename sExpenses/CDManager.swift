@@ -67,8 +67,9 @@ class CDManager: NSObject {
         do {
             let result = try self.managedObjectContext.executeFetchRequest(fetchRequest) as! [Expenses]
             //var e : Expenses
-            for e  in result{
-                let lgexpense = LGExpense(title: e.title! as String , cat: e.category! as String, price: e.price! as Double, curr: LGExpense.Currency.ars)
+            
+            for e in result{
+                let lgexpense = LGExpense(title:e.title! as String , cat: e.category! as String, price: e.price! as Double, curr: LGExpense.Currency.ars)
                 rv.append(lgexpense)
             }
             
