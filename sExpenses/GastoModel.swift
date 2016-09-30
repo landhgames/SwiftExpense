@@ -9,10 +9,11 @@
 import UIKit
 import CoreData
 
-class CDManager: NSObject {
+class GastoModel: NSObject {
 
     
-    func saveSpenditure(spend : LGExpense) {
+    //func saveSpenditure(spend : LGExpense) {
+    func guardarGasto(spend : LGExpense) {
         
         let entityDescription = NSEntityDescription.entityForName("Expenses", inManagedObjectContext: self.managedObjectContext)
         let expense = NSManagedObject(entity: entityDescription!, insertIntoManagedObjectContext: self.managedObjectContext)
@@ -30,7 +31,7 @@ class CDManager: NSObject {
         
     }
     
-    func saveSpenditures(spends : Array<LGExpense>) {
+    func guardarGastos(spends : Array<LGExpense>) {
         
         for spend in spends {
             
@@ -52,22 +53,16 @@ class CDManager: NSObject {
     }
     
     
-    func retrieveSpenditures() -> Array<LGExpense> {
+    func dameGastos() -> Array<LGExpense> {
         var rv = [LGExpense]()
         
-        // Initialize Fetch Request
         let fetchRequest = NSFetchRequest()
-        
-        // Create Entity Description
         let entityDescription = NSEntityDescription.entityForName("Expenses", inManagedObjectContext: self.managedObjectContext)
         
-        // Configure Fetch Request
         fetchRequest.entity = entityDescription
         
         do {
             let result = try self.managedObjectContext.executeFetchRequest(fetchRequest) as! [Expenses]
-            //var e : Expenses
-            
             for e in result{
                 let lgexpense = LGExpense(title:e.title! as String , cat: e.category! as String, price: e.price! as Double, curr: LGExpense.Currency.ars)
                 rv.append(lgexpense)

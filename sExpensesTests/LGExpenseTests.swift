@@ -3,7 +3,7 @@
 //  sExpenses
 //
 //  Created by Nacho on 6/20/16.
-//  Copyright © 2016 LandhGames™. All rights reserved.
+//  Copyright © 2016 LandhSoft™. All rights reserved.
 //
 
 import XCTest

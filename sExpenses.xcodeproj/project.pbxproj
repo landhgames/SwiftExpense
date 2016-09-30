@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660EC1EE1CA6E1DA00701FF2 /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EC1ED1CA6E1DA00701FF2 /* SummaryVC.swift */; };
-		6617445F1D0085DC0057083C /* ConfiguracionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6617445D1D0085DC0057083C /* ConfiguracionTableViewCell.swift */; };
-		661744601D0085DC0057083C /* ConfiguracionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6617445D1D0085DC0057083C /* ConfiguracionTableViewCell.swift */; };
-		661744611D0085DC0057083C /* ConfiguracionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6617445D1D0085DC0057083C /* ConfiguracionTableViewCell.swift */; };
-		661744621D0085DC0057083C /* ConfiguracionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6617445E1D0085DC0057083C /* ConfiguracionTableViewCell.xib */; };
-		661744631D0085DC0057083C /* ConfiguracionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6617445E1D0085DC0057083C /* ConfiguracionTableViewCell.xib */; };
-		661744641D0085DC0057083C /* ConfiguracionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6617445E1D0085DC0057083C /* ConfiguracionTableViewCell.xib */; };
-		661744681D0092AF0057083C /* LGEntradaSalida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661744671D0092AF0057083C /* LGEntradaSalida.swift */; };
-		661744691D0092AF0057083C /* LGEntradaSalida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661744671D0092AF0057083C /* LGEntradaSalida.swift */; };
-		6617446A1D0092AF0057083C /* LGEntradaSalida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661744671D0092AF0057083C /* LGEntradaSalida.swift */; };
+		661E95821D984B47001A62C3 /* AddNewSpendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E95801D984B47001A62C3 /* AddNewSpendViewController.swift */; };
+		661E95831D984B47001A62C3 /* AddNewSpendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E95801D984B47001A62C3 /* AddNewSpendViewController.swift */; };
+		661E95841D984B47001A62C3 /* AddNewSpendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E95801D984B47001A62C3 /* AddNewSpendViewController.swift */; };
+		661E95851D984B47001A62C3 /* AddNewSpendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E95811D984B47001A62C3 /* AddNewSpendViewController.xib */; };
+		661E95861D984B47001A62C3 /* AddNewSpendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E95811D984B47001A62C3 /* AddNewSpendViewController.xib */; };
+		661E95871D984B47001A62C3 /* AddNewSpendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E95811D984B47001A62C3 /* AddNewSpendViewController.xib */; };
+		661E958A1D984CB6001A62C3 /* AddNewSpendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E95891D984CB6001A62C3 /* AddNewSpendViewModel.swift */; };
+		661E958B1D984CB6001A62C3 /* AddNewSpendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E95891D984CB6001A62C3 /* AddNewSpendViewModel.swift */; };
+		661E958C1D984CB6001A62C3 /* AddNewSpendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E95891D984CB6001A62C3 /* AddNewSpendViewModel.swift */; };
+		661E958F1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E958D1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift */; };
+		661E95901D98553B001A62C3 /* LGSpenderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E958D1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift */; };
+		661E95911D98553B001A62C3 /* LGSpenderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E958D1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift */; };
+		661E95921D98553B001A62C3 /* LGSpenderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E958E1D98553B001A62C3 /* LGSpenderCellTableViewCell.xib */; };
+		661E95931D98553B001A62C3 /* LGSpenderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E958E1D98553B001A62C3 /* LGSpenderCellTableViewCell.xib */; };
+		661E95941D98553B001A62C3 /* LGSpenderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E958E1D98553B001A62C3 /* LGSpenderCellTableViewCell.xib */; };
 		6621B4E41CAC383E0066FC87 /* icon_amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 6621B4E11CAC383E0066FC87 /* icon_amex.png */; };
 		6621B4E51CAC383E0066FC87 /* icon_cash.png in Resources */ = {isa = PBXBuildFile; fileRef = 6621B4E21CAC383E0066FC87 /* icon_cash.png */; };
 		6621B4E61CAC383E0066FC87 /* icon_mastercard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6621B4E31CAC383E0066FC87 /* icon_mastercard.jpg */; };
@@ -24,15 +29,6 @@
 		6621B4E91CAC39F20066FC87 /* ExpenseCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6621B4E71CAC39F20066FC87 /* ExpenseCalculator.swift */; };
 		66335E8B1C6D221000EA43C2 /* Expenses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66335E891C6D221000EA43C2 /* Expenses+CoreDataProperties.swift */; };
 		66335E8C1C6D221000EA43C2 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66335E8A1C6D221000EA43C2 /* Expenses.swift */; };
-		663C47911D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C478F1D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift */; };
-		663C47921D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C478F1D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift */; };
-		663C47931D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C478F1D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift */; };
-		663C47941D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663C47901D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib */; };
-		663C47951D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663C47901D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib */; };
-		663C47961D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663C47901D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib */; };
-		663C47981D0F1BB800D6B788 /* ConfigurationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C47971D0F1BB800D6B788 /* ConfigurationDetailVC.swift */; };
-		663C47991D0F1BB800D6B788 /* ConfigurationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C47971D0F1BB800D6B788 /* ConfigurationDetailVC.swift */; };
-		663C479A1D0F1BB800D6B788 /* ConfigurationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C47971D0F1BB800D6B788 /* ConfigurationDetailVC.swift */; };
 		66506A451CAC2C8D00AC6D5D /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 66506A3E1CAC2C8D00AC6D5D /* Icon-60.png */; };
 		66506A461CAC2C8D00AC6D5D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 66506A3F1CAC2C8D00AC6D5D /* Icon-72.png */; };
 		66506A471CAC2C8D00AC6D5D /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66506A401CAC2C8D00AC6D5D /* Icon-72@2x.png */; };
@@ -40,12 +36,21 @@
 		66506A491CAC2C8D00AC6D5D /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66506A421CAC2C8D00AC6D5D /* Icon-Small-50@2x.png */; };
 		66506A4A1CAC2C8D00AC6D5D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66506A431CAC2C8D00AC6D5D /* Icon.png */; };
 		66506A4B1CAC2C8D00AC6D5D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66506A441CAC2C8D00AC6D5D /* Icon@2x.png */; };
-		667A58E81C48263F00A0E78B /* CDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A58E71C48263F00A0E78B /* CDManager.swift */; };
-		667A58E91C48263F00A0E78B /* CDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A58E71C48263F00A0E78B /* CDManager.swift */; };
-		667A58EA1C48263F00A0E78B /* CDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A58E71C48263F00A0E78B /* CDManager.swift */; };
-		66C0DBBF1D18C59A003F395B /* SumaryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0DBBE1D18C59A003F395B /* SumaryDAO.swift */; };
-		66C0DBC01D18C59A003F395B /* SumaryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0DBBE1D18C59A003F395B /* SumaryDAO.swift */; };
-		66C0DBC11D18C59A003F395B /* SumaryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0DBBE1D18C59A003F395B /* SumaryDAO.swift */; };
+		666000811D9DD2A600C216CC /* ResumenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660007F1D9DD2A600C216CC /* ResumenViewController.swift */; };
+		666000821D9DD2A600C216CC /* ResumenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666000801D9DD2A600C216CC /* ResumenViewController.xib */; };
+		666000841D9DD2BB00C216CC /* ResumenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666000831D9DD2BB00C216CC /* ResumenViewModel.swift */; };
+		66A7889E1D8D9F2D00E4B9E0 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7889C1D8D9F2C00E4B9E0 /* PrincipalViewController.swift */; };
+		66A7889F1D8D9F2D00E4B9E0 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7889C1D8D9F2C00E4B9E0 /* PrincipalViewController.swift */; };
+		66A788A01D8D9F2D00E4B9E0 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7889C1D8D9F2C00E4B9E0 /* PrincipalViewController.swift */; };
+		66A788A11D8D9F2D00E4B9E0 /* PrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A7889D1D8D9F2D00E4B9E0 /* PrincipalViewController.xib */; };
+		66A788A21D8D9F2D00E4B9E0 /* PrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A7889D1D8D9F2D00E4B9E0 /* PrincipalViewController.xib */; };
+		66A788A31D8D9F2D00E4B9E0 /* PrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A7889D1D8D9F2D00E4B9E0 /* PrincipalViewController.xib */; };
+		66A788A61D8D9F5100E4B9E0 /* PrincipalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A788A51D8D9F5100E4B9E0 /* PrincipalViewModel.swift */; };
+		66A788A71D8D9F5100E4B9E0 /* PrincipalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A788A51D8D9F5100E4B9E0 /* PrincipalViewModel.swift */; };
+		66A788A81D8D9F5100E4B9E0 /* PrincipalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A788A51D8D9F5100E4B9E0 /* PrincipalViewModel.swift */; };
+		66A788F11D97151500E4B9E0 /* LGGastosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A788F01D97151500E4B9E0 /* LGGastosModel.swift */; };
+		66A788F21D97151500E4B9E0 /* LGGastosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A788F01D97151500E4B9E0 /* LGGastosModel.swift */; };
+		66A788F31D97151500E4B9E0 /* LGGastosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A788F01D97151500E4B9E0 /* LGGastosModel.swift */; };
 		66C0DBC41D18C5FD003F395B /* LGExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0DBC21D18C5FD003F395B /* LGExpenseTests.swift */; };
 		66C0DBC81D1985DD003F395B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66335E8A1C6D221000EA43C2 /* Expenses.swift */; };
 		66C0DBC91D198607003F395B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66335E8A1C6D221000EA43C2 /* Expenses.swift */; };
@@ -54,28 +59,14 @@
 		66C0DBCC1D19888B003F395B /* Expenses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66335E891C6D221000EA43C2 /* Expenses+CoreDataProperties.swift */; };
 		66C0DBCD1D19888B003F395B /* Expenses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66335E891C6D221000EA43C2 /* Expenses+CoreDataProperties.swift */; };
 		66E6DAF51C3B303D004DF518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DAF41C3B303D004DF518 /* AppDelegate.swift */; };
-		66E6DAF71C3B303D004DF518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DAF61C3B303D004DF518 /* ViewController.swift */; };
 		66E6DAFA1C3B303D004DF518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DAF81C3B303D004DF518 /* Main.storyboard */; };
 		66E6DAFD1C3B303D004DF518 /* sExpenses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DAFB1C3B303D004DF518 /* sExpenses.xcdatamodeld */; };
 		66E6DAFF1C3B303D004DF518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DAFE1C3B303D004DF518 /* Assets.xcassets */; };
 		66E6DB021C3B303D004DF518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB001C3B303D004DF518 /* LaunchScreen.storyboard */; };
 		66E6DB0D1C3B303E004DF518 /* sExpensesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB0C1C3B303E004DF518 /* sExpensesTests.swift */; };
-		66E6DB181C3B303E004DF518 /* sExpensesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB171C3B303E004DF518 /* sExpensesUITests.swift */; };
-		66E6DB271C3B341E004DF518 /* LGSpenderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB251C3B341D004DF518 /* LGSpenderCellTableViewCell.swift */; };
-		66E6DB281C3B341E004DF518 /* LGSpenderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB251C3B341D004DF518 /* LGSpenderCellTableViewCell.swift */; };
-		66E6DB291C3B341E004DF518 /* LGSpenderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB251C3B341D004DF518 /* LGSpenderCellTableViewCell.swift */; };
-		66E6DB2A1C3B341E004DF518 /* LGSpenderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB261C3B341E004DF518 /* LGSpenderCellTableViewCell.xib */; };
-		66E6DB2B1C3B341E004DF518 /* LGSpenderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB261C3B341E004DF518 /* LGSpenderCellTableViewCell.xib */; };
-		66E6DB2C1C3B341E004DF518 /* LGSpenderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB261C3B341E004DF518 /* LGSpenderCellTableViewCell.xib */; };
 		66E6DB2F1C3B352D004DF518 /* icon_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB2E1C3B352D004DF518 /* icon_visa.png */; };
 		66E6DB301C3B352D004DF518 /* icon_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB2E1C3B352D004DF518 /* icon_visa.png */; };
 		66E6DB311C3B352D004DF518 /* icon_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E6DB2E1C3B352D004DF518 /* icon_visa.png */; };
-		66E6DB371C3B439A004DF518 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB361C3B439A004DF518 /* ConfigurationVC.swift */; };
-		66E6DB381C3B439A004DF518 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB361C3B439A004DF518 /* ConfigurationVC.swift */; };
-		66E6DB391C3B439A004DF518 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB361C3B439A004DF518 /* ConfigurationVC.swift */; };
-		66E6DB3B1C3B45E3004DF518 /* AddSpendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB3A1C3B45E3004DF518 /* AddSpendVC.swift */; };
-		66E6DB3C1C3B45E3004DF518 /* AddSpendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB3A1C3B45E3004DF518 /* AddSpendVC.swift */; };
-		66E6DB3D1C3B45E3004DF518 /* AddSpendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB3A1C3B45E3004DF518 /* AddSpendVC.swift */; };
 		66E6DB451C3C6BF2004DF518 /* LGExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB441C3C6BF2004DF518 /* LGExpense.swift */; };
 		66E6DB461C3C6BF2004DF518 /* LGExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB441C3C6BF2004DF518 /* LGExpense.swift */; };
 		66E6DB471C3C6BF2004DF518 /* LGExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6DB441C3C6BF2004DF518 /* LGExpense.swift */; };
@@ -99,19 +90,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		660EC1ED1CA6E1DA00701FF2 /* SummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
-		6617445D1D0085DC0057083C /* ConfiguracionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfiguracionTableViewCell.swift; sourceTree = "<group>"; };
-		6617445E1D0085DC0057083C /* ConfiguracionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionTableViewCell.xib; sourceTree = "<group>"; };
-		661744671D0092AF0057083C /* LGEntradaSalida.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LGEntradaSalida.swift; path = Clases/ConfiguracionVC/LGEntradaSalida.swift; sourceTree = "<group>"; };
+		661E95801D984B47001A62C3 /* AddNewSpendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewSpendViewController.swift; path = Clases/AddNewSpend/AddNewSpendViewController.swift; sourceTree = "<group>"; };
+		661E95811D984B47001A62C3 /* AddNewSpendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddNewSpendViewController.xib; path = Clases/AddNewSpend/AddNewSpendViewController.xib; sourceTree = "<group>"; };
+		661E95891D984CB6001A62C3 /* AddNewSpendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewSpendViewModel.swift; path = Clases/AddNewSpend/AddNewSpendViewModel.swift; sourceTree = "<group>"; };
+		661E958D1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGSpenderCellTableViewCell.swift; sourceTree = "<group>"; };
+		661E958E1D98553B001A62C3 /* LGSpenderCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LGSpenderCellTableViewCell.xib; sourceTree = "<group>"; };
 		6621B4E11CAC383E0066FC87 /* icon_amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_amex.png; path = Art/icon_amex.png; sourceTree = SOURCE_ROOT; };
 		6621B4E21CAC383E0066FC87 /* icon_cash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_cash.png; path = Art/icon_cash.png; sourceTree = SOURCE_ROOT; };
 		6621B4E31CAC383E0066FC87 /* icon_mastercard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon_mastercard.jpg; path = Art/icon_mastercard.jpg; sourceTree = SOURCE_ROOT; };
 		6621B4E71CAC39F20066FC87 /* ExpenseCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseCalculator.swift; sourceTree = "<group>"; };
 		66335E891C6D221000EA43C2 /* Expenses+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expenses+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		66335E8A1C6D221000EA43C2 /* Expenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
-		663C478F1D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InOutConfigurationTableViewCell.swift; path = Clases/ConfiguracionVC/InOutConfigurationTableViewCell.swift; sourceTree = "<group>"; };
-		663C47901D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InOutConfigurationTableViewCell.xib; path = Clases/ConfiguracionVC/InOutConfigurationTableViewCell.xib; sourceTree = "<group>"; };
-		663C47971D0F1BB800D6B788 /* ConfigurationDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationDetailVC.swift; sourceTree = "<group>"; };
 		66506A3E1CAC2C8D00AC6D5D /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "Art/Iconos/ios/Icon-60.png"; sourceTree = SOURCE_ROOT; };
 		66506A3F1CAC2C8D00AC6D5D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Art/Iconos/ios/Icon-72.png"; sourceTree = SOURCE_ROOT; };
 		66506A401CAC2C8D00AC6D5D /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "Art/Iconos/ios/Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -119,12 +108,16 @@
 		66506A421CAC2C8D00AC6D5D /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "Art/Iconos/ios/Icon-Small-50@2x.png"; sourceTree = SOURCE_ROOT; };
 		66506A431CAC2C8D00AC6D5D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Art/Iconos/ios/Icon.png; sourceTree = SOURCE_ROOT; };
 		66506A441CAC2C8D00AC6D5D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Art/Iconos/ios/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
-		667A58E71C48263F00A0E78B /* CDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDManager.swift; sourceTree = "<group>"; };
-		66C0DBBE1D18C59A003F395B /* SumaryDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumaryDAO.swift; sourceTree = "<group>"; };
+		6660007F1D9DD2A600C216CC /* ResumenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumenViewController.swift; sourceTree = "<group>"; };
+		666000801D9DD2A600C216CC /* ResumenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumenViewController.xib; sourceTree = "<group>"; };
+		666000831D9DD2BB00C216CC /* ResumenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumenViewModel.swift; sourceTree = "<group>"; };
+		66A7889C1D8D9F2C00E4B9E0 /* PrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrincipalViewController.swift; path = Clases/PrincipalViewController/PrincipalViewController.swift; sourceTree = "<group>"; };
+		66A7889D1D8D9F2D00E4B9E0 /* PrincipalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrincipalViewController.xib; path = Clases/PrincipalViewController/PrincipalViewController.xib; sourceTree = "<group>"; };
+		66A788A51D8D9F5100E4B9E0 /* PrincipalViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrincipalViewModel.swift; path = Clases/PrincipalViewController/PrincipalViewModel.swift; sourceTree = "<group>"; };
+		66A788F01D97151500E4B9E0 /* LGGastosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LGGastosModel.swift; path = Clases/PrincipalViewController/LGGastosModel.swift; sourceTree = "<group>"; };
 		66C0DBC21D18C5FD003F395B /* LGExpenseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGExpenseTests.swift; sourceTree = "<group>"; };
 		66E6DAF11C3B303D004DF518 /* sExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E6DAF41C3B303D004DF518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66E6DAF61C3B303D004DF518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66E6DAF91C3B303D004DF518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66E6DAFC1C3B303D004DF518 /* sExpenses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sExpenses.xcdatamodel; sourceTree = "<group>"; };
 		66E6DAFE1C3B303D004DF518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,13 +127,7 @@
 		66E6DB0C1C3B303E004DF518 /* sExpensesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sExpensesTests.swift; sourceTree = "<group>"; };
 		66E6DB0E1C3B303E004DF518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E6DB131C3B303E004DF518 /* sExpensesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sExpensesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66E6DB171C3B303E004DF518 /* sExpensesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sExpensesUITests.swift; sourceTree = "<group>"; };
-		66E6DB191C3B303E004DF518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66E6DB251C3B341D004DF518 /* LGSpenderCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGSpenderCellTableViewCell.swift; sourceTree = "<group>"; };
-		66E6DB261C3B341E004DF518 /* LGSpenderCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LGSpenderCellTableViewCell.xib; sourceTree = "<group>"; };
 		66E6DB2E1C3B352D004DF518 /* icon_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_visa.png; path = Art/icon_visa.png; sourceTree = SOURCE_ROOT; };
-		66E6DB361C3B439A004DF518 /* ConfigurationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationVC.swift; sourceTree = "<group>"; };
-		66E6DB3A1C3B45E3004DF518 /* AddSpendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSpendVC.swift; sourceTree = "<group>"; };
 		66E6DB441C3C6BF2004DF518 /* LGExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,42 +156,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6617445B1D00859F0057083C /* ConfigurationVC */ = {
+		661E95881D984B51001A62C3 /* AddNewSpend */ = {
 			isa = PBXGroup;
 			children = (
-				661744661D00928A0057083C /* Model */,
-				6617445C1D0085AD0057083C /* ViewController */,
-				661744651D0085E00057083C /* View */,
+				661E95801D984B47001A62C3 /* AddNewSpendViewController.swift */,
+				661E95891D984CB6001A62C3 /* AddNewSpendViewModel.swift */,
+				661E95811D984B47001A62C3 /* AddNewSpendViewController.xib */,
 			);
-			name = ConfigurationVC;
+			name = AddNewSpend;
 			sourceTree = "<group>";
 		};
-		6617445C1D0085AD0057083C /* ViewController */ = {
+		661E95951D985540001A62C3 /* LGSpenderTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				66E6DB361C3B439A004DF518 /* ConfigurationVC.swift */,
+				661E958D1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift */,
+				661E958E1D98553B001A62C3 /* LGSpenderCellTableViewCell.xib */,
 			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		661744651D0085E00057083C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6617445D1D0085DC0057083C /* ConfiguracionTableViewCell.swift */,
-				6617445E1D0085DC0057083C /* ConfiguracionTableViewCell.xib */,
-				663C478F1D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift */,
-				663C47901D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib */,
-				663C47971D0F1BB800D6B788 /* ConfigurationDetailVC.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		661744661D00928A0057083C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				661744671D0092AF0057083C /* LGEntradaSalida.swift */,
-			);
-			name = Model;
+			name = LGSpenderTableViewCell;
 			sourceTree = "<group>";
 		};
 		66506A3D1CAC2C7100AC6D5D /* Iconos */ = {
@@ -224,45 +192,31 @@
 		667A58E51C48260E00A0E78B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				66E6DB2D1C3B351E004DF518 /* Art */,
 				66E6DB001C3B303D004DF518 /* LaunchScreen.storyboard */,
-				667A58E71C48263F00A0E78B /* CDManager.swift */,
+				66E6DAF81C3B303D004DF518 /* Main.storyboard */,
 			);
 			name = Components;
 			sourceTree = "<group>";
 		};
-		667A58E61C48262100A0E78B /* AddSpend */ = {
+		66A788A41D8D9F3100E4B9E0 /* VistaPrincipal */ = {
 			isa = PBXGroup;
 			children = (
-				66E6DB3A1C3B45E3004DF518 /* AddSpendVC.swift */,
-				66E6DB251C3B341D004DF518 /* LGSpenderCellTableViewCell.swift */,
-				66E6DB261C3B341E004DF518 /* LGSpenderCellTableViewCell.xib */,
+				66A7889C1D8D9F2C00E4B9E0 /* PrincipalViewController.swift */,
+				66A788A51D8D9F5100E4B9E0 /* PrincipalViewModel.swift */,
+				66A7889D1D8D9F2D00E4B9E0 /* PrincipalViewController.xib */,
 			);
-			name = AddSpend;
+			name = VistaPrincipal;
 			sourceTree = "<group>";
 		};
-		66C0DBBB1D18BA8A003F395B /* SummaryVC */ = {
+		66C0DBBB1D18BA8A003F395B /* Resumen */ = {
 			isa = PBXGroup;
 			children = (
-				66C0DBBD1D18C55B003F395B /* DAO */,
-				66C0DBBC1D18C54B003F395B /* ViewController */,
+				6660007F1D9DD2A600C216CC /* ResumenViewController.swift */,
+				666000831D9DD2BB00C216CC /* ResumenViewModel.swift */,
+				666000801D9DD2A600C216CC /* ResumenViewController.xib */,
 			);
-			name = SummaryVC;
-			sourceTree = "<group>";
-		};
-		66C0DBBC1D18C54B003F395B /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				660EC1ED1CA6E1DA00701FF2 /* SummaryVC.swift */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		66C0DBBD1D18C55B003F395B /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				66C0DBBE1D18C59A003F395B /* SumaryDAO.swift */,
-			);
-			name = DAO;
+			name = Resumen;
 			sourceTree = "<group>";
 		};
 		66E6DAE81C3B303D004DF518 = {
@@ -270,7 +224,6 @@
 			children = (
 				66E6DAF31C3B303D004DF518 /* sExpenses */,
 				66E6DB0B1C3B303D004DF518 /* sExpensesTests */,
-				66E6DB161C3B303E004DF518 /* sExpensesUITests */,
 				66E6DAF21C3B303D004DF518 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -288,12 +241,10 @@
 		66E6DAF31C3B303D004DF518 /* sExpenses */ = {
 			isa = PBXGroup;
 			children = (
-				66E6DB2D1C3B351E004DF518 /* Art */,
 				66E6DAF41C3B303D004DF518 /* AppDelegate.swift */,
 				66E6DB421C3C6BC3004DF518 /* Uses Cases */,
 				66E6DB431C3C6BD2004DF518 /* Models */,
 				667A58E51C48260E00A0E78B /* Components */,
-				66E6DAFE1C3B303D004DF518 /* Assets.xcassets */,
 				66E6DB031C3B303D004DF518 /* Info.plist */,
 			);
 			path = sExpenses;
@@ -309,18 +260,10 @@
 			path = sExpensesTests;
 			sourceTree = "<group>";
 		};
-		66E6DB161C3B303E004DF518 /* sExpensesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				66E6DB171C3B303E004DF518 /* sExpensesUITests.swift */,
-				66E6DB191C3B303E004DF518 /* Info.plist */,
-			);
-			path = sExpensesUITests;
-			sourceTree = "<group>";
-		};
 		66E6DB2D1C3B351E004DF518 /* Art */ = {
 			isa = PBXGroup;
 			children = (
+				66E6DAFE1C3B303D004DF518 /* Assets.xcassets */,
 				66506A3D1CAC2C7100AC6D5D /* Iconos */,
 				66E6DB2E1C3B352D004DF518 /* icon_visa.png */,
 				6621B4E11CAC383E0066FC87 /* icon_amex.png */,
@@ -333,11 +276,10 @@
 		66E6DB421C3C6BC3004DF518 /* Uses Cases */ = {
 			isa = PBXGroup;
 			children = (
-				66E6DAF61C3B303D004DF518 /* ViewController.swift */,
-				6617445B1D00859F0057083C /* ConfigurationVC */,
-				66C0DBBB1D18BA8A003F395B /* SummaryVC */,
-				667A58E61C48262100A0E78B /* AddSpend */,
-				66E6DAF81C3B303D004DF518 /* Main.storyboard */,
+				661E95881D984B51001A62C3 /* AddNewSpend */,
+				66A788A41D8D9F3100E4B9E0 /* VistaPrincipal */,
+				661E95951D985540001A62C3 /* LGSpenderTableViewCell */,
+				66C0DBBB1D18BA8A003F395B /* Resumen */,
 			);
 			name = "Uses Cases";
 			sourceTree = "<group>";
@@ -345,10 +287,11 @@
 		66E6DB431C3C6BD2004DF518 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				66A788F01D97151500E4B9E0 /* LGGastosModel.swift */,
+				66E6DB441C3C6BF2004DF518 /* LGExpense.swift */,
+				66335E8A1C6D221000EA43C2 /* Expenses.swift */,
 				6621B4E71CAC39F20066FC87 /* ExpenseCalculator.swift */,
 				66335E891C6D221000EA43C2 /* Expenses+CoreDataProperties.swift */,
-				66335E8A1C6D221000EA43C2 /* Expenses.swift */,
-				66E6DB441C3C6BF2004DF518 /* LGExpense.swift */,
 				66E6DAFB1C3B303D004DF518 /* sExpenses.xcdatamodeld */,
 			);
 			name = Models;
@@ -420,18 +363,21 @@
 					New,
 				);
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "LandhGames™";
 				TargetAttributes = {
 					66E6DAF01C3B303D004DF518 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					66E6DB071C3B303D004DF518 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 66E6DAF01C3B303D004DF518;
 					};
 					66E6DB121C3B303E004DF518 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 66E6DAF01C3B303D004DF518;
 					};
 				};
@@ -467,13 +413,14 @@
 				6621B4E51CAC383E0066FC87 /* icon_cash.png in Resources */,
 				6621B4E61CAC383E0066FC87 /* icon_mastercard.jpg in Resources */,
 				66506A491CAC2C8D00AC6D5D /* Icon-Small-50@2x.png in Resources */,
+				666000821D9DD2A600C216CC /* ResumenViewController.xib in Resources */,
 				66506A471CAC2C8D00AC6D5D /* Icon-72@2x.png in Resources */,
-				663C47941D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib in Resources */,
+				66A788A11D8D9F2D00E4B9E0 /* PrincipalViewController.xib in Resources */,
 				66506A481CAC2C8D00AC6D5D /* Icon-Small-50.png in Resources */,
 				66506A451CAC2C8D00AC6D5D /* Icon-60.png in Resources */,
-				661744621D0085DC0057083C /* ConfiguracionTableViewCell.xib in Resources */,
 				66E6DB2F1C3B352D004DF518 /* icon_visa.png in Resources */,
-				66E6DB2A1C3B341E004DF518 /* LGSpenderCellTableViewCell.xib in Resources */,
+				661E95851D984B47001A62C3 /* AddNewSpendViewController.xib in Resources */,
+				661E95921D98553B001A62C3 /* LGSpenderCellTableViewCell.xib in Resources */,
 				6621B4E41CAC383E0066FC87 /* icon_amex.png in Resources */,
 				66506A4A1CAC2C8D00AC6D5D /* Icon.png in Resources */,
 				66506A461CAC2C8D00AC6D5D /* Icon-72.png in Resources */,
@@ -485,10 +432,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E6DB2B1C3B341E004DF518 /* LGSpenderCellTableViewCell.xib in Resources */,
-				661744631D0085DC0057083C /* ConfiguracionTableViewCell.xib in Resources */,
-				663C47951D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib in Resources */,
+				661E95861D984B47001A62C3 /* AddNewSpendViewController.xib in Resources */,
 				66E6DB301C3B352D004DF518 /* icon_visa.png in Resources */,
+				661E95931D98553B001A62C3 /* LGSpenderCellTableViewCell.xib in Resources */,
+				66A788A21D8D9F2D00E4B9E0 /* PrincipalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,10 +443,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E6DB2C1C3B341E004DF518 /* LGSpenderCellTableViewCell.xib in Resources */,
-				661744641D0085DC0057083C /* ConfiguracionTableViewCell.xib in Resources */,
-				663C47961D0F0CA800D6B788 /* InOutConfigurationTableViewCell.xib in Resources */,
+				661E95871D984B47001A62C3 /* AddNewSpendViewController.xib in Resources */,
 				66E6DB311C3B352D004DF518 /* icon_visa.png in Resources */,
+				661E95941D98553B001A62C3 /* LGSpenderCellTableViewCell.xib in Resources */,
+				66A788A31D8D9F2D00E4B9E0 /* PrincipalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,22 +458,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				66335E8C1C6D221000EA43C2 /* Expenses.swift in Sources */,
-				661744681D0092AF0057083C /* LGEntradaSalida.swift in Sources */,
-				66E6DB271C3B341E004DF518 /* LGSpenderCellTableViewCell.swift in Sources */,
-				66E6DB371C3B439A004DF518 /* ConfigurationVC.swift in Sources */,
-				66C0DBBF1D18C59A003F395B /* SumaryDAO.swift in Sources */,
-				6617445F1D0085DC0057083C /* ConfiguracionTableViewCell.swift in Sources */,
-				66E6DAF71C3B303D004DF518 /* ViewController.swift in Sources */,
+				66A788A61D8D9F5100E4B9E0 /* PrincipalViewModel.swift in Sources */,
+				661E958A1D984CB6001A62C3 /* AddNewSpendViewModel.swift in Sources */,
 				66E6DB451C3C6BF2004DF518 /* LGExpense.swift in Sources */,
-				663C47981D0F1BB800D6B788 /* ConfigurationDetailVC.swift in Sources */,
+				661E958F1D98553B001A62C3 /* LGSpenderCellTableViewCell.swift in Sources */,
 				66335E8B1C6D221000EA43C2 /* Expenses+CoreDataProperties.swift in Sources */,
-				660EC1EE1CA6E1DA00701FF2 /* SummaryVC.swift in Sources */,
-				667A58E81C48263F00A0E78B /* CDManager.swift in Sources */,
+				66A7889E1D8D9F2D00E4B9E0 /* PrincipalViewController.swift in Sources */,
 				6621B4E81CAC39F20066FC87 /* ExpenseCalculator.swift in Sources */,
-				663C47911D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift in Sources */,
+				666000841D9DD2BB00C216CC /* ResumenViewModel.swift in Sources */,
+				666000811D9DD2A600C216CC /* ResumenViewController.swift in Sources */,
 				66E6DAF51C3B303D004DF518 /* AppDelegate.swift in Sources */,
 				66E6DAFD1C3B303D004DF518 /* sExpenses.xcdatamodeld in Sources */,
-				66E6DB3B1C3B45E3004DF518 /* AddSpendVC.swift in Sources */,
+				66A788F11D97151500E4B9E0 /* LGGastosModel.swift in Sources */,
+				661E95821D984B47001A62C3 /* AddNewSpendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,21 +478,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E6DB281C3B341E004DF518 /* LGSpenderCellTableViewCell.swift in Sources */,
 				66E6DB0D1C3B303E004DF518 /* sExpensesTests.swift in Sources */,
-				661744601D0085DC0057083C /* ConfiguracionTableViewCell.swift in Sources */,
+				661E958B1D984CB6001A62C3 /* AddNewSpendViewModel.swift in Sources */,
+				66A788F21D97151500E4B9E0 /* LGGastosModel.swift in Sources */,
 				6621B4E91CAC39F20066FC87 /* ExpenseCalculator.swift in Sources */,
-				66E6DB381C3B439A004DF518 /* ConfigurationVC.swift in Sources */,
+				661E95901D98553B001A62C3 /* LGSpenderCellTableViewCell.swift in Sources */,
 				66C0DBCA1D1987A4003F395B /* sExpenses.xcdatamodeld in Sources */,
 				66C0DBCC1D19888B003F395B /* Expenses+CoreDataProperties.swift in Sources */,
-				663C47991D0F1BB800D6B788 /* ConfigurationDetailVC.swift in Sources */,
+				66A7889F1D8D9F2D00E4B9E0 /* PrincipalViewController.swift in Sources */,
+				66A788A71D8D9F5100E4B9E0 /* PrincipalViewModel.swift in Sources */,
 				66C0DBC81D1985DD003F395B /* Expenses.swift in Sources */,
-				661744691D0092AF0057083C /* LGEntradaSalida.swift in Sources */,
-				66C0DBC01D18C59A003F395B /* SumaryDAO.swift in Sources */,
-				663C47921D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift in Sources */,
 				66E6DB461C3C6BF2004DF518 /* LGExpense.swift in Sources */,
-				667A58E91C48263F00A0E78B /* CDManager.swift in Sources */,
-				66E6DB3C1C3B45E3004DF518 /* AddSpendVC.swift in Sources */,
+				661E95831D984B47001A62C3 /* AddNewSpendViewController.swift in Sources */,
 				66C0DBC41D18C5FD003F395B /* LGExpenseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,20 +498,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661E95841D984B47001A62C3 /* AddNewSpendViewController.swift in Sources */,
 				66C0DBC91D198607003F395B /* Expenses.swift in Sources */,
-				66C0DBC11D18C59A003F395B /* SumaryDAO.swift in Sources */,
-				661744611D0085DC0057083C /* ConfiguracionTableViewCell.swift in Sources */,
-				66E6DB291C3B341E004DF518 /* LGSpenderCellTableViewCell.swift in Sources */,
-				66E6DB181C3B303E004DF518 /* sExpensesUITests.swift in Sources */,
+				66A788F31D97151500E4B9E0 /* LGGastosModel.swift in Sources */,
 				66C0DBCB1D1987A5003F395B /* sExpenses.xcdatamodeld in Sources */,
-				6617446A1D0092AF0057083C /* LGEntradaSalida.swift in Sources */,
-				66E6DB391C3B439A004DF518 /* ConfigurationVC.swift in Sources */,
-				663C47931D0F0CA800D6B788 /* InOutConfigurationTableViewCell.swift in Sources */,
+				661E95911D98553B001A62C3 /* LGSpenderCellTableViewCell.swift in Sources */,
+				66A788A81D8D9F5100E4B9E0 /* PrincipalViewModel.swift in Sources */,
+				66A788A01D8D9F2D00E4B9E0 /* PrincipalViewController.swift in Sources */,
 				66E6DB471C3C6BF2004DF518 /* LGExpense.swift in Sources */,
-				663C479A1D0F1BB800D6B788 /* ConfigurationDetailVC.swift in Sources */,
-				667A58EA1C48263F00A0E78B /* CDManager.swift in Sources */,
 				66C0DBCD1D19888B003F395B /* Expenses+CoreDataProperties.swift in Sources */,
-				66E6DB3D1C3B45E3004DF518 /* AddSpendVC.swift in Sources */,
+				661E958C1D984CB6001A62C3 /* AddNewSpendViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,8 +559,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ignacio Orona (SS5BYVHTZM)";
@@ -652,6 +591,7 @@
 				PROVISIONING_PROFILE = "8b292492-451c-48e0-a8b4-d3721d3c7549";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -668,8 +608,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ignacio Orona (SS5BYVHTZM)";
@@ -690,6 +632,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "8b292492-451c-48e0-a8b4-d3721d3c7549";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -697,6 +641,7 @@
 		66E6DB1D1C3B303E004DF518 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ignacio Orona (SS5BYVHTZM)";
@@ -708,12 +653,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8b292492-451c-48e0-a8b4-d3721d3c7549";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		66E6DB1E1C3B303E004DF518 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ignacio Orona (SS5BYVHTZM)";
@@ -724,6 +671,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.landhgames.expensecalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8b292492-451c-48e0-a8b4-d3721d3c7549";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -737,6 +685,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = landhgames.sExpensesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sExpenses.app/sExpenses";
 			};
 			name = Debug;
@@ -750,6 +699,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = landhgames.sExpensesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sExpenses.app/sExpenses";
 			};
 			name = Release;
@@ -763,6 +713,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = landhgames.sExpensesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = sExpenses;
 				USES_XCTRUNNER = YES;
 			};
@@ -776,6 +727,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = landhgames.sExpensesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = sExpenses;
 				USES_XCTRUNNER = YES;
 			};

@@ -40,7 +40,7 @@ class AddSpendVC : UIViewController {
         // Pass the selected object to the new view controller.
     }
     
-    var categories : [String] = ["Personal domestico", "Pago Servicios/Impuestos", "Comida hecha",  "Insumos música", "Clase de Música", "Taxi",  "Restaurant", "Chino/Super", "Cancel"]
+    var categories : [String] = ["Pago Servicios/Impuestos", "Comida hecha",  "Insumos música", "Clase de Música", "Taxi",  "Restaurant", "Chino/Super", "Cancel"]
     
     @IBAction func showActionSheet(sender: AnyObject) {
         let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .ActionSheet)

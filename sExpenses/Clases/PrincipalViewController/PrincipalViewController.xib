@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrincipalViewController" customModule="sExpenses" customModuleProvider="target">
+            <connections>
+                <outlet property="addNewButton" destination="cOL-1K-W6m" id="SyF-qO-LZt"/>
+                <outlet property="theTableView" destination="UnM-O7-Ndz" id="S81-7w-8VG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UnM-O7-Ndz">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="566" id="Ud3-H5-awg"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="SQ1-2r-Bcr"/>
+                        <outlet property="delegate" destination="-1" id="sC8-eo-QK4"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOL-1K-W6m">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="iXn-y4-Z28"/>
+                        <constraint firstAttribute="width" constant="50" id="wRZ-L4-B8K"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="plus"/>
+                    <connections>
+                        <action selector="didTappAddNew:" destination="-1" eventType="touchDown" id="4bY-RE-nsG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRv-Xz-vR0">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6bF-Lw-eAq"/>
+                        <constraint firstAttribute="width" constant="50" id="o09-ZF-DHg"/>
+                    </constraints>
+                    <state key="normal" image="summary"/>
+                    <connections>
+                        <action selector="didTouchSummary:" destination="-1" eventType="touchDownRepeat" id="BCv-c9-0vF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cOL-1K-W6m" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="11" id="0rs-Hj-MZQ"/>
+                <constraint firstAttribute="trailing" secondItem="cOL-1K-W6m" secondAttribute="trailing" constant="17" id="2ZZ-H6-9pJ"/>
+                <constraint firstAttribute="trailing" secondItem="UnM-O7-Ndz" secondAttribute="trailing" id="2qz-bt-But"/>
+                <constraint firstItem="UnM-O7-Ndz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4wN-b8-5eT"/>
+                <constraint firstItem="UnM-O7-Ndz" firstAttribute="top" secondItem="xRv-Xz-vR0" secondAttribute="bottom" constant="31" id="NNq-dp-KK7"/>
+                <constraint firstItem="UnM-O7-Ndz" firstAttribute="top" secondItem="cOL-1K-W6m" secondAttribute="bottom" constant="31" id="Np6-BK-3Jb"/>
+                <constraint firstAttribute="bottom" secondItem="UnM-O7-Ndz" secondAttribute="bottom" constant="9" id="Q5x-ke-6Ma"/>
+                <constraint firstItem="xRv-Xz-vR0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="11" id="bgf-GF-1Ef"/>
+                <constraint firstItem="xRv-Xz-vR0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="szs-Lc-D2y"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="plus" width="256" height="256"/>
+        <image name="summary" width="256" height="256"/>
+    </resources>
+</document>

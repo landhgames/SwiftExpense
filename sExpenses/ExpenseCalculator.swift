@@ -3,20 +3,20 @@
 //  sExpenses
 //
 //  Created by Nacho on 3/30/16.
-//  Copyright © 2016 LandhGames™. All rights reserved.
+//  Copyright © 2016 LandhSoft™. All rights reserved.
 //
 
 import UIKit
 
 class ExpenseCalculator {//: NSObject {
-    let mgr = CDManager()
+    let mgr = LGGastosModel()
     var expenses :      Array<LGExpense> = []
     var totalIncome :   Array<LGExpense> = []
     
     var balance : Double = 0
     
     init(){
-        self.expenses = mgr.retrieveSpenditures()
+        self.expenses = mgr.dameGastos()
         self.calcIncome()
         self.calcOutcome()
     }
